@@ -32,7 +32,7 @@ class SelectViewController: UIViewController {
         tableView.dataSource = self
     }
 
-    @IBAction private func didTapCancelButton(_ sender: Any) {
+    @IBAction private func didTapCancelButton(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
 }

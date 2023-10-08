@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet private weak var prefectureLabel: UILabel!
 
-    @IBAction private func didTapSelectButton(_ sender: Any) {
+    @IBAction private func didTapSelectButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         if let navigationController = storyboard.instantiateViewController(
             withIdentifier: "NavigationController") as? UINavigationController {
